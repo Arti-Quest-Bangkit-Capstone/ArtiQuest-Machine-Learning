@@ -13,4 +13,4 @@ The artifact image identifier model was created using the TensorFlow library wit
 - Dense(256, 'relu')
 - Dense(1, 'sigmoid')
 
-Dataset yang kami gunakan untuk melatih model dikumpulkan secara manual dan disimpan di platform Google Drive: [Artifact Images Dataset](https://drive.google.com/drive/folders/17DuZVnSX4-Urku10jKksakwu7I4FoNNn?usp=sharing). Dataset tersebut terdiri dari 1.800 gambar artefak dengan format .jpg yang dibagi dalam dua kelas yaitu Keramik Cina dan Pis Bolong. Untuk proses pelatihan model, kami melakukan split dataset sebesar 70% untuk training data dan 30% untuk validation data.
+The dataset we used to train the model was collected manually and stored on the Google Drive platform: [Artifact Images Dataset](https://drive.google.com/drive/folders/17DuZVnSX4-Urku10jKksakwu7I4FoNNn?usp=sharing). The dataset consists of 1,800 artifact images in .jpg format which are divided into two classes, namely Chinese Ceramics and Pis Bolong. For the model training process, we split the dataset by 70% for training data and 30% for validation data.
